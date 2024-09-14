@@ -1,0 +1,179 @@
+* {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+#inicio{
+  scroll-margin-top: 15vh!important;
+}
+#Contactos{
+  scroll-margin-top: 16vh!important;
+}
+#Quienessomos{
+  scroll-margin-top: 6vh!important;
+}
+
+.section {
+  height: 500px;
+  border: 1px solid #E5BF00;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+}
+
+.hero {
+  margin-top: 9vh !important;
+  height: 100vh;
+  background-color: black;
+  background-image: url('../assets/banner.png');
+  background-size: cover;
+}
+
+.texto-hero {
+  display: flex !important;
+  flex-direction: row-reverse !important;
+  justify-content: space-between;
+}
+
+.mapa-google {
+  width: 550px;
+  height: 250px;
+  border: 1px solid #E5BF00;
+}
+
+/* seccion de quienes somos  */
+
+
+@media(max-width:480px) {
+  .mapa-google {
+    width: 100%;
+    height: 250px;
+  }
+
+  .texto-hero {
+    flex-direction: column !important;
+    justify-content: flex-start;
+  }
+
+  .hero {
+    margin-top: 0 !important;
+  }
+
+  .btn-quienes-somos {
+    width: 93%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media(max-width:380px) {
+  .hero {
+    padding-bottom: 80vh !important;
+  }
+}
+
+@media(max-width:362px) {
+  .hero {
+    padding-bottom: 50vh !important;
+  }
+}
+
+.section-custom h5,
+h4 {
+  color: #E5BF00;
+}
+
+.titulobanner {
+  color: #E5BF00;
+}
+
+.btn-primary {
+  background-color: #E5BF00;
+  color: black;
+  border-color: #E5BF00;
+}
+
+.text-left {
+  text-align: left !important;
+}
+
+.h3-bold {
+  font-weight: bold;
+}
+
+.icon-whatsapp {
+  max-width: 13%;
+}
+
+.contactanos {
+  padding: 15px;
+  position: relative;
+  display: inline-block;
+  border-left: 4px solid #E5BF00;
+}
+
+.contactanos::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0;
+  width: calc(50% - 50px);
+  height: 4px;
+  background-color: #E5BF00;
+  border-top-left-radius: 1px;
+  border-top-right-radius: 1px;
+}
+
+@media(max-width:1300px) {
+  .icon-whatsapp {
+    max-width: 15% !important;
+    vertical-align: text-top !important;
+  }
+}
+
+@media(max-width:480px) {
+  .div-contactar {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .icon-whatsapp {
+    max-width: 12% !important;
+    margin-left: 5px;
+  }
+
+  .div-mapa {
+    margin-bottom: 30px;
+  }
+}
+
+#carrusel {
+  width: 106%;
+  height: 350px;
+  overflow: hidden;
+  align-items: center;
+}
+
+#carouselExampleIndicators {
+  width: 100% ;
+  height: 60% ;
+}
+
+@media (max-width: 767px) {
+  #carouselExampleIndicators {
+      height: 90%;
+  }
+}
+
+.carousel-item {
+  width: 76%;
+  text-align: center;
+  margin-left: 12%;
+}
+
+.carousel-item h5,
+.carousel-item p {
+  margin: 0 auto;
+}
