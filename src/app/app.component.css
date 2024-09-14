@@ -12,6 +12,28 @@
   scroll-margin-top: 6vh!important;
 }
 
+/*murillo*/
+.cstm-h1{
+  color: #1C2541;
+  font-weight: bold;
+}
+
+.cstm-btn-whatsapp {
+  background-color: #1C2541;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 0 6px 6px #0cb2f944;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.cstm-btn-whatsapp:hover {
+  box-shadow: 0 8px 12px #0cb2f97c;
+}
+/*murillo*/
 .section {
   height: 500px;
   border: 1px solid #E5BF00;
@@ -25,8 +47,8 @@
 .hero {
   margin-top: 9vh !important;
   height: 100vh;
-  background-color: black;
-  background-image: url('../assets/banner.png');
+  background-color: rgb(255, 255, 255);
+  background-image: url('../assets/BannerR2.png');
   background-size: cover;
 }
 
@@ -85,7 +107,8 @@ h4 {
 }
 
 .titulobanner {
-  color: #E5BF00;
+  color: #000000;
+  font-weight: bold;
 }
 
 .btn-primary {
