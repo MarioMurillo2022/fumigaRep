@@ -25,7 +25,7 @@
  
   .nav-link {
     text-decoration: none;
-    color: #E5BF00;
+    color: #04abf8;
     position: relative;
   }
   
@@ -34,7 +34,7 @@
     display: block;
     width: 0;
     height: 5px;
-    background-color: #E5BF00;
+    background-color: #04abf8;
     position: absolute;
     bottom: -5px;
     left: 0;
@@ -48,7 +48,7 @@
   
   .section {
     height: 500px;
-    border: 1px solid #E5BF00;
+    border: 1px solid #04abf8;
     margin-top: 20px;
     display: flex;
     justify-content: center;
@@ -70,16 +70,16 @@
   
   
   .section-custom h5 h4{
-    color: #E5BF00; 
+    color: #04abf8; 
   }
   .titulobanner{
-    color: #E5BF00; 
+    color: #04abf8; 
   }
   
   .btn-primary {
-    background-color: #E5BF00;
+    background-color: #04abf8;
     color: black;
-    border-color: #E5BF00;
+    border-color: #04abf8;
   }
   
   .text-left {
@@ -95,7 +95,7 @@
     padding:15px;
     position: relative;
     display: inline-block;
-    border-left: 4px solid #E5BF00;
+    border-left: 4px solid #04abf8;
   }
   
   .contactanos::before {
@@ -105,7 +105,7 @@
     left: 0;
     width: calc(50% - 50px); 
     height: 4px;
-    background-color: #E5BF00;
+    background-color: #04abf8;
     border-top-left-radius: 1px; 
     border-top-right-radius: 1px; 
   }

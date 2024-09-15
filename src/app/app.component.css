@@ -36,7 +36,7 @@
 /*murillo*/
 .section {
   height: 500px;
-  border: 1px solid #E5BF00;
+  border: 1px solid #0CB0F9;
   margin-top: 20px;
   display: flex;
   justify-content: center;
@@ -61,7 +61,7 @@
 .mapa-google {
   width: 550px;
   height: 250px;
-  border: 1px solid #E5BF00;
+  border: 1px solid #0CB0F9;
 }
 
 /* seccion de quienes somos  */
@@ -103,7 +103,7 @@
 
 .section-custom h5,
 h4 {
-  color: #E5BF00;
+  color: #0CB0F9;
 }
 
 .titulobanner {
@@ -112,9 +112,9 @@ h4 {
 }
 
 .btn-primary {
-  background-color: #E5BF00;
+  background-color: #0CB0F9;
   color: black;
-  border-color: #E5BF00;
+  border-color: #0CB0F9;
 }
 
 .text-left {
@@ -133,7 +133,7 @@ h4 {
   padding: 15px;
   position: relative;
   display: inline-block;
-  border-left: 4px solid #E5BF00;
+  border-left: 4px solid #0CB0F9;
 }
 
 .contactanos::before {
@@ -143,7 +143,7 @@ h4 {
   left: 0;
   width: calc(50% - 50px);
   height: 4px;
-  background-color: #E5BF00;
+  background-color: #0CB0F9;
   border-top-left-radius: 1px;
   border-top-right-radius: 1px;
 }
