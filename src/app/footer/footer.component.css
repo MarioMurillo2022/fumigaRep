@@ -1,0 +1,24 @@
+footer{
+    background-color: #1C2541;
+}
+
+.cstm-a {
+    transition: transform 0.3s ease, stroke 0.3s ease;
+  }
+  
+  .cstm-a:hover {
+    transform: scale(1.2); /* Aumenta el tamaño del ícono */
+  }
+  
+  .cstm-a:hover svg {
+    stroke: #0CB0F9; /* Cambia el color del trazo del ícono */
+  }
+  
+  footer .icon {
+    transition: stroke 0.3s ease;
+  }
+  
+  footer .icon:hover {
+    stroke: #0CB0F9; /* Cambia el color al pasar el mouse */
+  }
+  
