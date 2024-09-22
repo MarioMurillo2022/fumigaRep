@@ -1,0 +1,19 @@
+Logo responsivo:
+
+Ajusté el tamaño del logo (.cstm-logo) para que sea más pequeño en pantallas móviles y más grande en desktops usando media queries.
+Espaciado y fuente en el menú en móvil:
+
+Los elementos del menú (nav li) ahora se apilan verticalmente en pantallas pequeñas.
+Se redujo el tamaño de fuente de los enlaces en pantallas pequeñas para ahorrar espacio.
+Tamaño del botón en móvil:
+
+Ajusté el padding del botón de "hamburguesa" (.navbar-toggler) para hacerlo más compacto en dispositivos móviles.
+Tamaño de la fuente del logo:
+
+Mantuve el tamaño de la fuente del logo adaptable con ajustes en pantallas más pequeñas.
+Ajuste de altura del navbar:
+
+La altura del navbar (.H-100) se ajusta para ser más pequeña en pantallas móviles y más grande en pantallas desktop.
+Ajuste de espaciado entre los enlaces:
+
+Añadí margen vertical entre los enlaces del menú en pantallas pequeñas para mejorar la legibilidad.
