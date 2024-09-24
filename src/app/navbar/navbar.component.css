@@ -12,7 +12,7 @@ nav ul {
 }
 
 nav li {
-  display: inline;
+  display: inline-block; /* Mejora la alineación para evitar problemas en pantallas pequeñas */
   margin-right: 20px;
   position: relative;
 }
@@ -24,20 +24,21 @@ nav li {
   position: relative;
   display: flex;
   align-items: center;
+  padding: 10px 0; /* Añadir espacio alrededor de los enlaces */
 }
 
 .cstm-logo {
-  height: 50px; /* Ajusta el tamaño de la imagen */
+  height: 40px; /* Tamaño dinámico */
   margin-right: 10px;
 }
 
 .H-100 {
-  height: 2em; /* Ajuste base usando em */
+  height: 2em;
   display: flex;
   align-items: center;
 }
 
-
+/* Aumentar tamaño del texto del logo */
 .nav-link h3 {
   color: #ffffff;
   font-size: 24px;
@@ -61,15 +62,50 @@ nav li {
 .nav-link.active::after {
   width: 100%;
 }
-/*Alto del navbar*/
-@media (min-width: 768px) {
+
+/* MEDIA QUERIES */
+/* Para pantallas más pequeñas */
+@media (max-width: 768px) {
+  nav li {
+    display: block; /* El menú se apila en dispositivos pequeños */
+    margin: 10px 0; /* Añadir margen vertical entre los elementos */
+  }
+
+  .nav-link {
+    font-size: 18px; /* Reducir el tamaño de fuente en móvil */
+  }
+
+  .cstm-logo {
+    height: 30px; /* Reducir el tamaño del logo en móviles */
+  }
+
+  .navbar-toggler {
+    padding: 0.25rem 0.75rem; /* Ajustar el tamaño del botón en móviles */
+  }
+
   .H-100 {
-    height: 3em; /* Para pantallas medianas (tablets) */
+    height: 2.5em; /* Ajustar la altura para móviles */
   }
 }
 
+/* Para pantallas medianas (tablets) */
+@media (min-width: 768px) {
+  .H-100 {
+    height: 3em;
+  }
+
+  .cstm-logo {
+    height: 45px; /* Ajuste del logo para tablets */
+  }
+}
+
+/* Para pantallas grandes (desktops) */
 @media (min-width: 1024px) {
   .H-100 {
-    height: 4em; /* Para pantallas grandes (desktops) */
+    height: 4em;
+  }
+
+  .cstm-logo {
+    height: 50px; /* Mantener el logo más grande en desktops */
   }
 }

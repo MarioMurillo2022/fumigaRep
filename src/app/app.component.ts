@@ -8,8 +8,9 @@ import { FooterComponent } from './footer/footer.component';
   standalone: true,
   imports: [RouterOutlet, ServiciosComponent, NavbarComponent, FooterComponent],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  styleUrl: './app.component.css',
 })
 export class AppComponent {
-  MensajeQuienesSomos = 'En Servicios Especializados en Seguridad Privada S.DE R.L, nos enorgullece ser una empresa hondureña comprometida con la protección de nuestros clientes y sus bienes más preciados. Con una sólida experiencia en el sector, nos destacamos por ofrecer soluciones de seguridad integrales y personalizadas que se adaptan a las necesidades específicas de cada cliente';
+  MensajeQuienesSomos =
+    'Inversiones INGMAS es una empresa hondureña con una sólida trayectoria, estructurada en cuatro divisiones clave: ingeniería, mantenimiento, asesoría y suministros. Bajo nuestra reconocida marca FUMIGA, nos especializamos en fumigación y control integral de plagas, ofreciendo soluciones personalizadas y efectivas para diversos sectores, desde residencial hasta industrial.';
 }

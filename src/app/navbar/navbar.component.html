@@ -2,12 +2,14 @@
   class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top custom-border"
 >
   <div class="container">
-    <div class="H-100">
-      <a href="#inicio" class="nav-link">
-        <img src="../assets/isologo-fumiga.png" class="cstm-logo" alt="" />
-        <h3 class="text-white d-flex align-items-center m-0">FUMIGA</h3>
-      </a>
-    </div>
+    <a href="#inicio" class="navbar-brand d-flex align-items-center">
+      <img
+        src="../assets/isologo-fumiga.png"
+        class="cstm-logo"
+        alt="Fumiga logo"
+      />
+      <h3 class="text-white m-0">FUMIGA</h3>
+    </a>
     <button
       class="navbar-toggler"
       type="button"
@@ -22,35 +24,35 @@
 
     <div class="collapse navbar-collapse justify-content-end" id="navbarS">
       <ul class="navbar-nav">
-        <div class="nav-item mx-3">
+        <li class="nav-item mx-3">
           <a href="#inicio" class="nav-link text-white" (click)="closeNavbar()"
             >Inicio</a
           >
-        </div>
-        <div class="nav-item mx-3">
+        </li>
+        <li class="nav-item mx-3">
           <a
             href="#servicios"
             class="nav-link text-white"
             (click)="closeNavbar()"
             >Servicios</a
           >
-        </div>
-        <div class="nav-item mx-3">
+        </li>
+        <li class="nav-item mx-3">
           <a
             href="#Quienessomos"
             class="nav-link text-white"
             (click)="closeNavbar()"
             >Quiénes somos</a
           >
-        </div>
-        <div class="nav-item mx-3">
+        </li>
+        <li class="nav-item mx-3">
           <a
             href="#Contactos"
             class="nav-link text-white"
             (click)="closeNavbar()"
             >Contáctanos</a
           >
-        </div>
+        </li>
       </ul>
     </div>
   </div>

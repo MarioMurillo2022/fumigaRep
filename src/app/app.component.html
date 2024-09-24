@@ -1,158 +1,286 @@
-<main class="main">
-  <app-navbar></app-navbar>
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="FUMIGA ofrece servicios profesionales en fumigación y control de plagas en Honduras, con un enfoque en la sostenibilidad, calidad e innovación. Descubre más sobre nuestra misión, visión y cobertura."
+    />
+    <meta
+      name="keywords"
+      content="fumigación, control de plagas, San Pedro Sula, servicios de plagas, fumigación en Honduras, control de plagas en Honduras"
+    />
+    <meta name="author" content="Inversiones INGMAS" />
+    <meta
+      property="og:title"
+      content="FUMIGA - Servicios Profesionales en Fumigación y Control de Plagas"
+    />
+    <meta
+      property="og:description"
+      content="Ofrecemos servicios de fumigación y control de plagas con un enfoque en la sostenibilidad, calidad e innovación. Visita nuestra página para más información sobre nuestros servicios y cobertura."
+    />
+    <meta
+      property="og:image"
+      content="../assets/ImagotipoFumiga-removebg.png"
+    />
+    <meta property="og:url" content="https://www.fumiga.com" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="FUMIGA - Servicios Profesionales en Fumigación y Control de Plagas"
+    />
+    <meta
+      name="twitter:description"
+      content="Servicios de fumigación y control de plagas en Honduras. Conoce más sobre nuestra misión, visión y cobertura en San Pedro Sula y otras regiones."
+    />
+    <meta
+      name="twitter:image"
+      content="../assets/ImagotipoFumiga-removebg.png"
+    />
+    <title>
+      FUMIGA - Servicios Profesionales en Fumigación y Control de Plagas
+    </title>
+    <!-- Agrega aquí tus enlaces a CSS -->
+  </head>
+  <body>
+    <!-- Tu contenido aquí -->
+    <main class="main">
+      <app-navbar></app-navbar>
 
-  <div class="content">
-    <div id="inicio" class="inicio">
-      <div class="hero d-flex justify-content-center align-items-center">
-        <div class="d-flex align-items-center w-75 h-75 text-white p-0 texto-hero">
-          <div>
-            <img src="../assets/ImagotipoFumiga-removebg.png" class="d-block w-100" alt="" />
-          </div>
-          <div class="text-left">
-            <h1 class="cstm-h1">
-              Servicios profesionales en fumigación y control de plagas.
-            </h1>
-            <p class="titulobanner">
-              —— Compromiso, innovación, responsabilidad, calidad y ética.
-            </p>
-            <div class="col-md-5">
-              <a href="https://wa.me/50431995427" target="_blank"
-                class="btn cstm-btn-whatsapp btn-lg mt-3 h3-bold div-contactar">
-                Contactános
-                <img src="../assets/whatsapp.png" class="icon-whatsapp" alt="icono-whatsapp" />
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <app-servicios></app-servicios>
-      <section id="Quienessomos" class="section-custom text-white">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-6 d-flex align-items-center">
-              <img src="../assets/ImagotipoFumiga-removebg.png" class="d-block w-100" alt="" alt="Imagen" />
-            </div>
-            <div class="col-md-6 mt-5">
-              <h2 class="text-center contactanos mb-3">Sobre nosotros</h2>
-
-              <p>{{ MensajeQuienesSomos }}</p>
-              <div class="row" id="carrusel">
-                <div id="carouselExampleIndicators" class="carousel slide">
-                  <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
-                      class="active" aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                      aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                      aria-label="Slide 3"></button>
-                  </div>
-                  <div class="carousel-inner">
-                    <div class="carousel-item active w-75">
-                      <h5>Misión</h5>
-                      <p>
-                        Proveer servicios de fumigación y control de plagas de alta calidad, abarcando los sectores
-                        residencial, comercial e industrial, con un enfoque en la sostenibilidad y el uso de tecnologías
-                        avanzadas, garantizando la tranquilidad y satisfacción de nuestros clientes.
-                      </p>
-                    </div>
-                    <div class="carousel-item">
-                      <h5>Visión</h5>
-                      <p>
-                        Ser líderes en soluciones integrales de control de plagas en Honduras, reconocidos por nuestra
-                        innovación, calidad y compromiso con la salud y seguridad de nuestros clientes, contribuyendo a
-                        un entorno más seguro y saludable.
-                      </p>
-                    </div>
-                    <div class="carousel-item">
-                      <h5>Nuestros valores</h5>
-                      <p>
-                        Nos dedicamos a ofrecer un servicio excelente y cumplir con tus expectativas adaptandonos a las
-                        ultimas tecnologias y metodos de control de plagas ofreciendo soluciones eficientes y
-                        sostenibles.
-                        Operamos con un alto nivel de responsabilidad social y ambiental cuidando asi la salud y
-                        seguridad de nuestras comunidades
-                      </p>
-                    </div>
-                  </div>
-                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                  </button>
-                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                  </button>
+      <div class="content">
+        <div id="inicio" class="inicio">
+          <div class="hero d-flex justify-content-center align-items-center">
+            <div
+              class="d-flex align-items-center w-75 h-75 text-white p-0 texto-hero"
+            >
+              <div>
+                <img
+                  src="../assets/ImagotipoFumiga-removebg.png"
+                  class="d-block w-100"
+                  alt="Logotipo de Fumiga"
+                />
+              </div>
+              <div class="text-left">
+                <h1 class="cstm-h1">
+                  Servicios profesionales en fumigación y control de plagas.
+                </h1>
+                <p class="titulobanner">
+                  —— Compromiso, innovación, responsabilidad, calidad y ética.
+                </p>
+                <div class="col-md-5">
+                  <a
+                    href="https://wa.me/50431995427"
+                    target="_blank"
+                    class="btn cstm-btn-whatsapp btn-lg mt-3 h3-bold div-contactar"
+                    aria-label="Contactar a través de WhatsApp"
+                  >
+                    Contáctanos
+                    <img
+                      src="../assets/whatsapp.png"
+                      class="icon-whatsapp"
+                      alt="Icono de WhatsApp"
+                    />
+                  </a>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-      </section>
 
-      <div class="container mt-4">
-        <div class="row">
-          <div class="col">
-            <div id="Contactos" class="contactanos">
-              <h1 class="mb-0">Contáctanos</h1>
+          <app-servicios></app-servicios>
+          <section id="Quienessomos" class="section-custom text-white">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-6 d-flex align-items-center">
+                  <img
+                    src="../assets/ImagotipoFumiga-removebg.png"
+                    class="d-block w-100"
+                    alt="Imagen sobre nosotros"
+                  />
+                </div>
+                <div class="col-md-6 mt-5">
+                  <h2 class="text-center contactanos mb-3">Sobre nosotros</h2>
+                  <p>{{ MensajeQuienesSomos }}</p>
+                  <div class="row" id="carrusel">
+                    <div id="carouselExampleIndicators" class="carousel slide">
+                      <div class="carousel-indicators">
+                        <button
+                          type="button"
+                          data-bs-target="#carouselExampleIndicators"
+                          data-bs-slide-to="0"
+                          class="active"
+                          aria-current="true"
+                          aria-label="Slide 1"
+                        ></button>
+                        <button
+                          type="button"
+                          data-bs-target="#carouselExampleIndicators"
+                          data-bs-slide-to="1"
+                          aria-label="Slide 2"
+                        ></button>
+                        <button
+                          type="button"
+                          data-bs-target="#carouselExampleIndicators"
+                          data-bs-slide-to="2"
+                          aria-label="Slide 3"
+                        ></button>
+                      </div>
+                      <div class="carousel-inner">
+                        <div class="carousel-item active w-75">
+                          <h5>Misión</h5>
+                          <p>
+                            Proveer servicios de fumigación y control de plagas
+                            de alta calidad, abarcando los sectores residencial,
+                            comercial e industrial, con un enfoque en la
+                            sostenibilidad y el uso de tecnologías avanzadas,
+                            garantizando la tranquilidad y satisfacción de
+                            nuestros clientes.
+                          </p>
+                        </div>
+                        <div class="carousel-item">
+                          <h5>Visión</h5>
+                          <p>
+                            Ser líderes en soluciones integrales de control de
+                            plagas en Honduras, reconocidos por nuestra
+                            innovación, calidad y compromiso con la salud y
+                            seguridad de nuestros clientes, contribuyendo a un
+                            entorno más seguro y saludable.
+                          </p>
+                        </div>
+                        <div class="carousel-item">
+                          <h5>Nuestros valores</h5>
+                          <p>
+                            Nos dedicamos a ofrecer un servicio excelente y
+                            cumplir con tus expectativas adaptándonos a las
+                            últimas tecnologías y métodos de control de plagas,
+                            ofreciendo soluciones eficientes y sostenibles.
+                            Operamos con un alto nivel de responsabilidad social
+                            y ambiental, cuidando así la salud y seguridad de
+                            nuestras comunidades.
+                          </p>
+                        </div>
+                      </div>
+                      <button
+                        class="carousel-control-prev"
+                        type="button"
+                        data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev"
+                        aria-label="Slide anterior"
+                      >
+                        <span
+                          class="carousel-control-prev-icon"
+                          aria-hidden="true"
+                        ></span>
+                        <span class="visually-hidden">Anterior</span>
+                      </button>
+                      <button
+                        class="carousel-control-next"
+                        type="button"
+                        data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next"
+                        aria-label="Slide siguiente"
+                      >
+                        <span
+                          class="carousel-control-next-icon"
+                          aria-hidden="true"
+                        ></span>
+                        <span class="visually-hidden">Siguiente</span>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <div class="container mt-4">
+            <div class="row">
+              <div class="col">
+                <div id="Contactos" class="contactanos">
+                  <h1 class="mb-0">Contáctanos</h1>
+                </div>
+              </div>
+              <div class="col text-start"></div>
             </div>
           </div>
-          <div class="col text-start"></div>
-        </div>
-      </div>
 
-      <div class="container mt-5">
-        <div class="row">
-          <div class="col-md-6 div-mapa">
-            <iframe class="mapa-google"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3844.688520867616!2d-88.03612181557901!3d15.501177615990416!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f665b9aa521d563%3A0x3e3f8e4353bcb2ba!2sInversiones%20INGMAS!5e0!3m2!1ses-419!2shn!4v1726386778705!5m2!1ses-419!2shn"
-              allowfullscreen="" loading="lazy">
-            </iframe>
-            <div class="w-100 d-flex align-items-center justify-content-center">
-              <p class="mt-3 w-75 fw-bold">
-                Nuestra oficina principal se encuentra en Barrio El Benque, 7
-                calle sur, entre 10 y 11 avenida, San Pedro Sula.
-              </p>
+          <div class="container mt-5">
+            <div class="row">
+              <div class="col-md-6 div-mapa">
+                <iframe
+                  class="mapa-google"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3844.688520867616!2d-88.03612181557901!3d15.501177615990416!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f665b9aa521d563%3A0x3e3f8e4353bcb2ba!2sInversiones%20INGMAS!5e0!3m2!1ses-419!2shn!4v1726386778705!5m2!1ses-419!2shn"
+                  allowfullscreen=""
+                  loading="lazy"
+                  aria-label="Ubicación de nuestra oficina principal"
+                >
+                </iframe>
+                <div
+                  class="w-100 d-flex align-items-center justify-content-center"
+                >
+                  <p class="mt-3 w-75 fw-bold">
+                    Nuestra oficina principal se encuentra en Barrio El Benque,
+                    7 calle sur, entre 10 y 11 avenida, San Pedro Sula.
+                  </p>
+                </div>
+              </div>
+
+              <div class="col-md-6 mt-2 mb-2">
+                <h3 class="text-center fw-bold mb-4">
+                  Tenemos cobertura en 3 Zonas del País
+                </h3>
+                <h4 class="text-center mb-3 fw-bold">
+                  ¡Nos ubicamos en San Pedro Sula!
+                </h4>
+                <p class="fw-bold">
+                  FUMIGA de Inversiones INGMAS S. de R.L. tiene su oficina
+                  principal en San Pedro Sula, operamos en 3 regiones del País.
+                  Esto garantiza una amplia cobertura y proximidad a tu hogar o
+                  negocio, reforzando nuestro compromiso con tu bienestar y
+                  protección en:
+                </p>
+
+                <section class="d-flex justify-content-between">
+                  <div
+                    class="d-flex justify-content-center align-items-center flex-column"
+                  >
+                    <img
+                      src="../assets/fumigador.png"
+                      class="img-fluid h-25"
+                      alt="Fumigador en Zona Norte"
+                    />
+                    <p class="text-center">Zona Norte</p>
+                  </div>
+                  <div
+                    class="d-flex justify-content-center align-items-center flex-column"
+                  >
+                    <img
+                      src="../assets/fumigador.png"
+                      class="img-fluid h-25"
+                      alt="Fumigador en Zona Litoral"
+                    />
+                    <p class="text-center">Zona Litoral</p>
+                  </div>
+                  <div
+                    class="d-flex justify-content-center align-items-center flex-column"
+                  >
+                    <img
+                      src="../assets/fumigador.png"
+                      class="img-fluid h-25"
+                      alt="Fumigador en Zona de Occidente"
+                    />
+                    <p class="text-center">Zona de Occidente</p>
+                  </div>
+                </section>
+              </div>
             </div>
           </div>
 
-          <div class="col-md-6 mt-2 mb-2">
-            <h3 class="text-center fw-bold mb-4">
-              Tenemos cobertura en 3 Zonas del Pais
-            </h3>
-            <h4 class="text-center mb-3 fw-bold">
-              ¡Nos ubicamos en San Pedro Sula!
-            </h4>
-            <p class="fw-bold">
-              FUMIGA de Inversiones INGMAS S. de R.L. tiene su oficina principal
-              en San Pedro Sula, operamos en 3 regiones del Pais. Esto garantiza
-              una amplia cobertura y proximidad a tu hogar o negocio, reforzando
-              nuestro compromiso con tu bienestar y proteccion en:
-            </p>
-
-            <section class="d-flex justify-content-between">
-              <div class="d-flex justify-content-center align-items-center flex-column">
-                <img src="../assets/fumigador.png" class="img-fluid h-25" alt="Imagen" />
-                <p class="text-center">Zona Norte</p>
-              </div>
-              <div class="d-flex justify-content-center align-items-center flex-column">
-                <img src="../assets/fumigador.png" class="img-fluid h-25" alt="Imagen" />
-                <p class="text-center">Zona Litoral</p>
-              </div>
-              <div class="d-flex justify-content-center align-items-center flex-column">
-                <img src="../assets/fumigador.png" class="img-fluid h-25" alt="Imagen" />
-                <P class="text-center">Zona de Occidente</P>
-              </div>
-            </section>
-          </div>
+          <app-footer></app-footer>
         </div>
       </div>
+    </main>
 
-      <app-footer></app-footer>
-    </div>
-  </div>
-</main>
-
-<router-outlet />
+    <router-outlet />
+  </body>
+</html>
